@@ -5,7 +5,8 @@ class App < Sinatra::Base
   get '/' do 
     erb :user_input 
     
-  post '/piglatinize'
+  post '/piglatinize' do 
+    
     
     
 end
